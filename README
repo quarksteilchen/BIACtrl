@@ -1,0 +1,8 @@
+BIACtrl is just a quick written tool (with GUI) for contributing to the generation of highres-metadata of the Bing Maps. It uses ant.dev.openstreetmap.org/bingimageanalyzer to do that.
+
+Main Features are:
+ - tracing edges of highres aerial images (usually at z14, but higher zooms possible too)
+ - update tiles up to z6 by getting the upper tiles of the traced path too.
+ - start at a custom location (given in quadkey, wgs84 ("gps") coordinates, or x/y coordinates)
+ - history of the path
+ - hidden feature: paint images to the map :-).
